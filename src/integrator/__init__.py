@@ -40,3 +40,4 @@ class RK4Integrator(IntegratorBase):
 
         # Return next velocity and position
         return y_n + 1 / 6 * (k1 + 2 * k2 + 2 * k3 + k4)
+    
